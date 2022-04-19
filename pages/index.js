@@ -1,10 +1,13 @@
 import NextLink from 'next/link'
-import { Container, Box, Heading, Image, Link, useColorModeValue, Button } from '@chakra-ui/react'
+import { Container, Box, Heading, Image, Link, useColorModeValue, Icon, Button, List, ListItem, SimpleGrid } from '@chakra-ui/react'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
+import { GridItem } from '../components/grid-item'
+import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoTiktok } from 'react-icons/io5'
+
 
 const Page = () => {
     return  (
@@ -67,6 +70,38 @@ const Page = () => {
         <Paragraph>
           C++, JavaScript, React, Next.JS
         </Paragraph>
+      </Section>
+
+      <Section delay ={0.3}>
+          <Heading as= "h3" variant="section-title">
+                Socials
+          </Heading>
+          <List>
+              <ListItem>
+                <Link href="https://github.com/alonsoalegria" target="_blank">
+                    <Button variant="ghost" colorScheme="blue" leftIcon={<Icon as={IoLogoGithub}/>}>
+                        @alonsoalegria
+                    </Button>
+                </Link>
+                <Link href="/" target="_blank">
+                    <Button variant="ghost" colorScheme="blue" leftIcon={<Icon as={IoLogoTwitter}/>}>
+                        @alonsoalegria
+                    </Button>
+                </Link>
+              </ListItem>
+              <ListItem>
+                <Link href="/" target="_blank">
+                    <Button variant="ghost" colorScheme="blue" leftIcon={<Icon as={IoLogoInstagram}/>}>
+                        @alonsoalegria
+                    </Button>
+                </Link>
+                <Link href="/" target="_blank">
+                    <Button variant="ghost" colorScheme="blue" leftIcon={<Icon as={IoLogoTiktok}/>}>
+                        @alonsoalegria
+                    </Button>
+                </Link>
+              </ListItem>
+          </List>
       </Section>
         </Container>
         </Layout>
