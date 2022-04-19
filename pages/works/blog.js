@@ -21,8 +21,11 @@ const Work = () => (
             https://www.inkdrop.app/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
-        <ListItem></ListItem>
-        <ListItem></ListItem>
+          
+        <ListItem> 
+        <Meta>Stack</Meta>
+          <span>NodeJS, React Native</span>
+        </ListItem>
       </List>
 
     </Container>
