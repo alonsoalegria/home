@@ -16,9 +16,9 @@ const Work = () => (
       </P>
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Website</Meta> 
-          <Link href="https://www.inkdrop.app/">
-            https://www.inkdrop.app/ <ExternalLinkIcon mx="2px" />
+          <Meta>Source</Meta> 
+          <Link href="https://github.com/alonsoalegria">
+          https://github.com/alonsoalegria <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
           
@@ -29,6 +29,9 @@ const Work = () => (
       </List>
 
       <WorkImage src="/images/Ousama.jpg" alt="Ousama" />
+      <div>
+        explain what this image is about, talk about the project. 
+      </div>
       <WorkImage src="/images/Ousama.jpg" alt="Ousama" />
 
     </Container>
