@@ -19,7 +19,7 @@ const Works = () => {
           </WorkGridItem>
         </Section>
         <Section>
-          <WorkGridItem id="facebookClone" title="Facebook Clone" thumbnail={thumbfclone}
+          <WorkGridItem id="fclone" title="Facebook Clone" thumbnail={thumbfclone}
           >
             Facebook Clone website built with Next js
           </WorkGridItem>
