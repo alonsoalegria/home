@@ -28,6 +28,9 @@ const Work = () => (
         </ListItem>
       </List>
 
+      <WorkImage src="/images/Ousama.jpg" alt="Ousama" />
+      <WorkImage src="/images/Ousama.jpg" alt="Ousama" />
+
     </Container>
   </Layout>
 )
