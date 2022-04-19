@@ -15,7 +15,16 @@ const Work = () => (
         posts using sanity.
       </P>
       <List ml={4} my={4}>
+        <ListItem>
+          <Meta>Website</Meta> 
+          <Link href="https://www.inkdrop.app/">
+            https://www.inkdrop.app/ <ExternalLinkIcon mx="2px" />
+          </Link>
+        </ListItem>
+        <ListItem></ListItem>
+        <ListItem></ListItem>
       </List>
+
     </Container>
   </Layout>
 )
