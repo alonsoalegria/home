@@ -5,13 +5,15 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="Blog">
+  <Layout title="Netflix Clone">
     <Container>
       <Title>
         Netflix Clone <Badge>2022</Badge>
       </Title>
       <P>
-        This is a clone of netflix that allows you to create your own account, choose the service package you want and pay for it using stripe. While you cannot watch full movies this clone lets you watch movie trialers for new movies, the trailers have been pulled using an api from TMDB. Firebase was utilized for user authentication, user database and stripe linkage to user.
+        This is a clone of netflix that allows you to create your own account, choose the service package you want and pay for it using stripe. 
+        While you cannot watch full movies this clone lets you watch movie trialers for new movies, the trailers have been pulled using an api from TMDB. 
+        Firebase was utilized for user authentication, user database and stripe linkage to user.
       </P>
       <List ml={4} my={4}>
         <ListItem>

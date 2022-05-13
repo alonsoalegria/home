@@ -24,6 +24,12 @@ const Works = () => {
             Facebook Clone website built with Next js
           </WorkGridItem>
         </Section>
+        <Section>
+          <WorkGridItem id="netflix-clone" title="Netflix Clone" thumbnail={thumbfclone}
+          >
+            Netflix Clone
+          </WorkGridItem>
+        </Section>
 
         </SimpleGrid>
       </Container>
