@@ -14,7 +14,7 @@ const Page = () => {
         <Layout>
         <Container>
             <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center"> 
-                Hello, I&apos;m a full-stack developer from Temecula, CA!
+                Hi, thank you for visiting my portfolio!
             </Box>
             <Box display={{md: 'flex'}}>
                 <Box flexGrow={1}>
@@ -37,7 +37,7 @@ const Page = () => {
                 </Heading>
                 <Paragraph>
                     My most recent project has been this {''}
-                    <NextLink href="/works/blog">
+                    <NextLink href="/works/netflix-clone">
                         <Link>blog website</Link>
                     </NextLink>
                     .
@@ -58,8 +58,12 @@ const Page = () => {
                 </BioSection>
                 <BioSection >
                     <BioYear>2021</BioYear>
-                    Pursued a bachelors Degree in Computer Science
-                    and have started doing projects since then in hopes of becoming a Software engineer.
+                    Graduated from CSU San Marcos with a bachelors Degree in Computer Science.
+                </BioSection>
+                <BioSection >
+                    <BioYear>2022
+                    </BioYear>
+                    Currently working on projects to enhance my skills as a Software Developer.
                 </BioSection>
             </Section>
 
@@ -68,9 +72,11 @@ const Page = () => {
           Skills
         </Heading>
         <Paragraph>
-          C++, JavaScript, React, Next.JS
+          C++, JavaScript with React and NextJS. 
         </Paragraph>
       </Section>
+
+      
 
       <Section delay ={0.3}>
           <Heading as= "h3" variant="section-title">
@@ -83,23 +89,19 @@ const Page = () => {
                         @alonsoalegria
                     </Button>
                 </Link>
-                <Link href="/" target="_blank">
-                    <Button variant="ghost" colorScheme="blue" leftIcon={<Icon as={IoLogoTwitter}/>}>
+                <Link href="https://www.instagram.com/alonsoalegria/" target="_blank">
+                    <Button variant="ghost" colorScheme="blue" leftIcon={<Icon as={IoLogoInstagram}/>}>
                         @alonsoalegria
                     </Button>
                 </Link>
               </ListItem>
               <ListItem>
-                <Link href="/" target="_blank">
-                    <Button variant="ghost" colorScheme="blue" leftIcon={<Icon as={IoLogoInstagram}/>}>
+                {/*<Link href="/" target="_blank">
+                    <Button variant="ghost" colorScheme="blue" leftIcon={<Icon as={IoLogoTwitter}/>}>
                         @alonsoalegria
                     </Button>
                 </Link>
-                <Link href="/" target="_blank">
-                    <Button variant="ghost" colorScheme="blue" leftIcon={<Icon as={IoLogoTiktok}/>}>
-                        @alonsoalegria
-                    </Button>
-                </Link>
+    */}
               </ListItem>
           </List>
       </Section>
