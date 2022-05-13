@@ -25,7 +25,15 @@ const Work = () => (
         <Meta>Stack</Meta>
           <span>Next.js, Typescript, Tailwind</span>
         </ListItem>
-      </List>
+      
+
+      <ListItem>
+          <Meta>Visit</Meta> 
+          <Link href="https://netflix-clone-hazel-ten.vercel.app/">
+           https://netflix-clone-hazel-ten.vercel.app <ExternalLinkIcon mx="2px" />
+          </Link>
+        </ListItem>
+        </List>
 
       <WorkImage src="/images/Ousama.jpg" alt="Ousama" />
       <div>

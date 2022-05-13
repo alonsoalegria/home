@@ -38,7 +38,7 @@ const Page = () => {
                 <Paragraph>
                     My most recent project has been this {''}
                     <NextLink href="/works/netflix-clone">
-                        <Link>blog website</Link>
+                        <Link>Netflix clone</Link>
                     </NextLink>
                     .
                 </Paragraph>
