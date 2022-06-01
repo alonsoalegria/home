@@ -35,16 +35,6 @@
       "static/chunks/main.js",
       "static/chunks/pages/works.js"
     ],
-    "/works/blog": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/works/blog.js"
-    ],
-    "/works/fclone": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/works/fclone.js"
-    ],
     "/works/netflix-clone": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

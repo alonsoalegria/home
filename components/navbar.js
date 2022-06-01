@@ -17,16 +17,19 @@ import{
 
 import {HamburgerIcon} from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
+import { IoLogoGithub } from 'react-icons/io5'
 
-const LinkItem = ({ href, path, children}) => {
+const LinkItem = ({ href, path, target, children, ...props}) => {
     const active = path === href
     const inactiveColor = useColorModeValue('gray200', 'whiteAlpha.900')
     return (
-        <NextLink href={href}>
+        <NextLink href={href} passHref scroll={false}>
             <Link
             p={2}
             bg={active ? 'glassTeal' : undefined}
             color={active ? '#202023' : inactiveColor}
+            target={target}
+            {...props}
             >
             {children}
             </Link>
@@ -71,8 +74,16 @@ const Navbar = props => {
                     <LinkItem href="/works" path={path}> 
                     Works
                     </LinkItem>
-                    <LinkItem href="/posts" path={path}> 
-                    Posts
+                    <LinkItem
+                        target="_blank"
+                        href="https://github.com/alonsoalegria"
+                        path={path}
+                        display="inline-flex"
+                        alignItems="center"
+                        style={{ gap: 4 }}
+                        pl={2}
+                    >
+                        Github
                     </LinkItem>
                 </Stack>
             
@@ -92,9 +103,6 @@ const Navbar = props => {
                             </NextLink>
                             <NextLink href="/works" passHref>
                                 <MenuItem as={Link}>Works</MenuItem>
-                            </NextLink>
-                            <NextLink href="/posts" passHref>
-                                <MenuItem as={Link}>Posts</MenuItem>
                             </NextLink>
                                 <MenuItem as={Link} href="https://github.com/alonsoalegria"
                                 >Github

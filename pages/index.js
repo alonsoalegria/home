@@ -7,7 +7,7 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import { GridItem } from '../components/grid-item'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoTiktok } from 'react-icons/io5'
-
+import Ousama from '../public/images/Ousama.jpg';
 
 const Page = () => {
     return  (
@@ -72,7 +72,7 @@ const Page = () => {
           Skills
         </Heading>
         <Paragraph>
-          C++, JavaScript with React and NextJS. 
+          C++, JavaScript, Python
         </Paragraph>
       </Section>
 
@@ -104,6 +104,23 @@ const Page = () => {
     */}
               </ListItem>
           </List>
+          <SimpleGrid columns={[1, 2, 2]} gap={6}>
+          <GridItem
+            href="https://code-blog-nine.vercel.app/"
+            title="Code Blog"
+            thumbnail={Ousama}
+          >
+            Check out my blog to know more about me.
+          </GridItem>
+          <GridItem
+            href="/"
+            title="Next Project"
+            thumbnail={Ousama}
+          >
+            This is what I'm working on
+          </GridItem>
+          </SimpleGrid>
+          
       </Section>
         </Container>
         </Layout>
