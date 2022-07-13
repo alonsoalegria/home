@@ -17,14 +17,21 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Source</Meta> 
-          <Link href="https://github.com/alonsoalegria">
-          https://github.com/alonsoalegria <ExternalLinkIcon mx="2px" />
+          <Link href="https://github.com/alonsoalegria/code-blog">
+          https://github.com/alonsoalegria/code-blog <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
           
         <ListItem> 
         <Meta>Stack</Meta>
           <span>NodeJS, React Native</span>
+        </ListItem>
+
+        <ListItem>
+          <Meta>Visit</Meta> 
+          <Link href="https://code-blog-nine.vercel.app/">
+          https://code-blog-nine.vercel.app/ <ExternalLinkIcon mx="2px" />
+          </Link>
         </ListItem>
       </List>
 

@@ -2,8 +2,8 @@ import { Container, Box, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
-import thumbBlog from '../public/images/Ousama.jpg'
-import thumbfclone from '../public/images/Ousama.jpg'
+import thumbBlog from '../public/images/codeblogss.png'
+import thumbnetflixcln from '../public/images/nlogin.png'
 
 const Works = () => {
  return (
@@ -13,24 +13,18 @@ const Works = () => {
         Works
       </Heading>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        
         <Section>
-          <WorkGridItem id="blog" title="Blog" thumbnail={thumbBlog}>
-            A blog website built with React, Next JS and Sanity 
-          </WorkGridItem>
-        </Section>
-        <Section>
-          <WorkGridItem id="fclone" title="Facebook Clone" thumbnail={thumbfclone}
+          <WorkGridItem id="netflix-clone" title="Netflix Clone" thumbnail={thumbnetflixcln}
           >
-            Facebook Clone website built with Next js
+            Netflix Clone made using Next.js, TypeScript, Tailwind
           </WorkGridItem>
         </Section>
         <Section>
-          <WorkGridItem id="netflix-clone" title="Netflix Clone" thumbnail={thumbfclone}
-          >
-            Netflix Clone
+          <WorkGridItem id="blog" title="Code-Blog" thumbnail={thumbBlog}>
+            A blog website built with React, Gatsby.js and Sanity.io
           </WorkGridItem>
         </Section>
-
         </SimpleGrid>
       </Container>
       </Layout>

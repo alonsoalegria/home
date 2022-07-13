@@ -7,7 +7,8 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import { GridItem } from '../components/grid-item'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoTiktok } from 'react-icons/io5'
-import Ousama from '../public/images/Ousama.jpg';
+import codeblogss from '../public/images/codeblogss.png';
+import aiML from '../public/images/aiMlcodesrs.png';
 
 const Page = () => {
     return  (
@@ -72,11 +73,9 @@ const Page = () => {
           Skills
         </Heading>
         <Paragraph>
-          C++, JavaScript, Python
+          C++, JavaScript
         </Paragraph>
       </Section>
-
-      
 
       <Section delay ={0.3}>
           <Heading as= "h3" variant="section-title">
@@ -89,11 +88,12 @@ const Page = () => {
                         @alonsoalegria
                     </Button>
                 </Link>
-                <Link href="https://www.instagram.com/alonsoalegria/" target="_blank">
+                {/*<Link href="https://www.instagram.com/alonsoalegria/" target="_blank">
                     <Button variant="ghost" colorScheme="blue" leftIcon={<Icon as={IoLogoInstagram}/>}>
                         @alonsoalegria
                     </Button>
                 </Link>
+                */}
               </ListItem>
               <ListItem>
                 {/*<Link href="/" target="_blank">
@@ -108,16 +108,16 @@ const Page = () => {
           <GridItem
             href="https://code-blog-nine.vercel.app/"
             title="Code Blog"
-            thumbnail={Ousama}
+            thumbnail={codeblogss}
           >
             Check out my blog to know more about me.
           </GridItem>
           <GridItem
-            href="/"
-            title="Next Project"
-            thumbnail={Ousama}
+            href="https://code-blog-nine.vercel.app/categories/machine-learning"
+            title="Machine Learning"
+            thumbnail={aiML}
           >
-            This is what I'm working on
+            This is what I'm currently learning.
           </GridItem>
           </SimpleGrid>
           
