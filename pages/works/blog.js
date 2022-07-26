@@ -11,8 +11,8 @@ const Work = () => (
         Blog site <Badge>2022</Badge>
       </Title>
       <P>
-        A blog website built with react and next js with the choice to add or delete 
-        posts using sanity.
+        A blog website built with react and Gatsby.js with the choice to add or delete 
+        posts using sanity.io
       </P>
       <List ml={4} my={4}>
         <ListItem>
@@ -35,11 +35,35 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/Ousama.jpg" alt="Ousama" />
+      <WorkImage src="/images/cbloghome.png" alt="CBlogHome" />
       <div>
-        explain what this image is about, talk about the project. 
+        This site was created by Alonso to demostrate his tech interests and hobbies. Here you can learn more about Alonso and the projects he has created in detail. There are also plenty of posts that help you better understand and solve Data structure and Algorithm problems take from leetcode.
       </div>
-      <WorkImage src="/images/Ousama.jpg" alt="Ousama" />
+      <br/>
+
+      <WorkImage src="/images/blogspage.png" alt="BlogPage" />
+      <div>
+        By clicking on the blogs tab in the navbar the user is redirected to the blogs page, where they can check out all the available posts on the site. 
+      </div>
+      <br/>
+
+      <WorkImage src="/images/category.png" alt="Category" />
+      <div>
+        By clicking on Categories the user can choose the category of the posts of their choice.
+      </div>
+      <br/>
+
+      <WorkImage src="/images/binblog.png" alt="BinBlog" />
+      <div>
+        Each post has links to the author and categories that the post falls under. The posts revolve around computer science topics and concepts that interest Alonso.
+      </div>
+      <br/>
+
+      <WorkImage src="/images/sanitypost.png" alt="SanityPost" />
+      <div>
+        The authors, categories and posts are all created and manged using Sanity.io, this allows for creating posts and not worry about having to code each post.
+      </div>
+      <br/>
 
     </Container>
   </Layout>
