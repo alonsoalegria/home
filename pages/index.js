@@ -8,7 +8,7 @@ import Layout from '../components/layouts/article'
 import { GridItem } from '../components/grid-item'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoTiktok } from 'react-icons/io5'
 import codeblogss from '../public/images/codeblogss.png';
-import aiML from '../public/images/aiMlcodesrs.png';
+import nexushp from '../public/images/nexushp.png';
 
 const Page = () => {
     return  (
@@ -113,9 +113,9 @@ const Page = () => {
             Check out my blog to know more about me.
           </GridItem>
           <GridItem
-            href="https://code-blog-nine.vercel.app/categories/machine-learning"
-            title="Machine Learning"
-            thumbnail={aiML}
+            href="https://code-blog-nine.vercel.app/blogs/nexus-codes"
+            title="Nexus Codes"
+            thumbnail={nexushp}
           >
             This is what I'm currently learning.
           </GridItem>

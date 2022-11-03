@@ -39,11 +39,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/works/blog.js"
-    ],
-    "/works/netflix-clone": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/works/netflix-clone.js"
     ]
   },
   "ampFirstPages": []
